@@ -3,6 +3,7 @@ package com.stratio.model.spark
 import org.scalatest.{FlatSpec, ShouldMatchers}
 import utils.LocalSparkSqlContext
 
+
 class FlightDslTest extends FlatSpec with ShouldMatchers with LocalSparkSqlContext {
 
   import FlightDsl._
