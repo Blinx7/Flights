@@ -3,6 +3,8 @@ package com.stratio.model.spark
 import scala.language.implicitConversions
 import com.stratio.model.Flight
 import org.apache.spark.rdd.RDD
+import org.apache.spark.rdd.RDD
+
 
 class FlightCsvReader(self: RDD[String]) {
 
