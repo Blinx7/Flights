@@ -5,6 +5,9 @@ import org.joda.time.DateTime
 
 sealed class Cancelled
 
+// Prueba
+
+
 object OnTime extends Cancelled
 object Cancel extends Cancelled
 object Unknown extends Cancelled
